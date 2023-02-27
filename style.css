@@ -1,0 +1,133 @@
+
+nav {
+    background-color: gray;
+    height: 75px;
+    width: 100%;
+    border-top:35px solid gray;
+}
+
+.logo {
+    font-size: 50px;
+    width: 270px;
+    margin-top: auto;
+    background-color: tan;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    display: inline;
+    align-items: center;
+    left: 500px;
+    bottom: 800px;
+}
+
+li {
+    position: relative;
+    top: -50px;
+    left: 1000px;
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+a {
+    color: tan;
+}
+
+h3 {
+    position: absolute;
+    font-size: 30px;
+    left: 1000px;
+    top: 230px;
+    background-color:darkgray;
+}
+
+h2 {
+    font-size: 40px;
+    width: 150px;
+    display: flex;
+    padding: 50px;
+    padding-left: 10%;
+    padding-top: 15%;
+    border-right: 3px solid black;
+}
+
+.About-Me {
+    margin-top: 200px;
+}
+
+.Work {
+    height: 500px;
+}
+
+
+p {
+    width: 700px;
+    position: absolute;
+    display: block;
+    top: 595px;
+    left: 30%;
+
+}
+
+.image-text {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    text-align: left;
+
+}
+
+.image-text p {
+    font-size: 20px;
+    position: absolute;
+    top: 60px;
+    left: 20%;
+
+}
+
+.image-large {
+    position: absolute;
+    top: 1005px;
+    left: 30%;
+}
+
+.image-large img {
+    width: 720px;
+    height: 400px;
+    border: 5px solid black;
+
+}
+
+h4 {
+    position: absolute;
+    font-size: 30px;
+}
+
+
+
+.image-grid {
+    position: absolute;
+    top: 1450px;
+    left: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); /* Change the number of columns here */
+    grid-gap: 20px; /* Adjust the gap between images */
+  }
+  
+  .image-grid img {
+    width: 350px;
+    height: 150px;
+    border: 5px solid black;
+  }
+
+  
+
+  
